@@ -18,7 +18,7 @@
 
 
 ### Training:
-1. ##### Office-31 dataset
+##### Office-31 dataset
 	```python
     # train source model
     python train_source.py --dset office --s 0 --max_epoch 50
@@ -26,10 +26,6 @@
     python train_target.py --dset office --emt 0.999 --output test --gpu_id 7 --s 0 --t 1
     python train_target.py --dset office --emt 0.999 --output test --gpu_id 7 --s 0 --t 2
 	```
-2. ##### Office-Home dataset
-	- Coming soon ...
-3. ##### VISDA-C dataset
-	- Coming soon ...
 
 
 ### Citation
