@@ -4,15 +4,13 @@
 ### Framework:  
 
 1. train on the source domain;
-2. Construct the proxy source domain and train on target dataset.
-
-<img src="figs/net.png" width="800"/>
+2. train on target dataset.
 
 ### Prerequisites:
 - python == 3.6.8
 - pytorch ==1.1.0
 - torchvision == 0.3.0
-- numpy, scipy, sklearn, ot, argparse, tqdm
+- numpy, scipy, sklearn, ot, argparse
 
 ### Dataset:
 
